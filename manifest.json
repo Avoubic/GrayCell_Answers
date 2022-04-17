@@ -1,0 +1,19 @@
+{
+  "name": "GreyCell Answers",
+  "description": "GreyCell Answers (F4 for answer)",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://www.graycell.ru/*"],
+      "js": ["inject.js"],
+      "all_frames": true
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["content.js"],
+      "matches": ["https://www.graycell.ru/*"]
+    }
+  ]
+}
