@@ -1,6 +1,6 @@
 {
-  "name": "GreyCell Answers",
-  "description": "GreyCell Answers (F4 for answer)",
+  "name": "GrayCell Answers",
+  "description": "GrayCell Answers (F4 for answer)",
   "version": "1.0",
   "manifest_version": 3,
   "content_scripts": [
